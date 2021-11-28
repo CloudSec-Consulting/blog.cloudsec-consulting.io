@@ -9,13 +9,13 @@
 </copyright>
     <lastBuildDate>Sat, 27 Nov 2021 00:22:35 +0000</lastBuildDate><atom:link href="https://blog.cloudsec-consulting.io/authors/khaled/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Almighty Visibility - Part 1</title>
-      <link>https://blog.cloudsec-consulting.io/posts/visibility_pt1/</link>
+      <title>The Almighty Visibility - Coming Soon</title>
+      <link>https://blog.cloudsec-consulting.io/posts/visibility/</link>
       <pubDate>Sat, 27 Nov 2021 00:22:35 +0000</pubDate>
       
-      <guid>https://blog.cloudsec-consulting.io/posts/visibility_pt1/</guid>
-      <description>Introduction In this lame attempt at getting started with tech blogging, I wanted to share my journey of using different cloud providers. Probably not like the first users of public clouds, this journey started with Google Cloud Platform and not with AWS or Azure.
-After the first few months of discovering the world of GCP, different projects landed on either AWS, Azure or GCP. Although my experience at using Azure at this moment is very limited, I hope I get to use their services asap, even if they are going through a bad period since a lot of disturbing security issues are discovered.</description>
+      <guid>https://blog.cloudsec-consulting.io/posts/visibility/</guid>
+      <description>Introduction Testing a Mermaid Graph graph TD A[Client] -- B[Load Balancer] B &amp;ndash;&amp;gt; C[Server1] B &amp;ndash;&amp;gt; D[Server2]
+ -- </description>
     </item>
     
   </channel>

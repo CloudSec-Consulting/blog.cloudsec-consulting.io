@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on CloudSec Blog</title>
-    <link>https://blog.cloudsec-consulting.io/posts/</link>
+    <link>https://cloudsec-consulting.github.io/posts/</link>
     <description>Recent content in Posts on CloudSec Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sat, 27 Nov 2021 00:22:35 +0000</lastBuildDate><atom:link href="https://blog.cloudsec-consulting.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 00:22:35 +0000</lastBuildDate><atom:link href="https://cloudsec-consulting.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Almighty Visibility - Part 1</title>
-      <link>https://blog.cloudsec-consulting.io/posts/visibility_pt1/</link>
+      <link>https://cloudsec-consulting.github.io/posts/visibility_pt1/</link>
       <pubDate>Sat, 27 Nov 2021 00:22:35 +0000</pubDate>
       
-      <guid>https://blog.cloudsec-consulting.io/posts/visibility_pt1/</guid>
+      <guid>https://cloudsec-consulting.github.io/posts/visibility_pt1/</guid>
       <description>Introduction In this lame attempt at getting started with tech blogging, I wanted to share my journey of using different cloud providers. Probably not like the first users of public clouds, this journey started with Google Cloud Platform and not with AWS or Azure.
 After the first few months of discovering the world of GCP, different projects landed on either AWS, Azure or GCP. Although my experience at using Azure at this moment is very limited, I hope I get to use their services asap, even if they are going through a bad period since a lot of disturbing security issues are discovered.</description>
     </item>

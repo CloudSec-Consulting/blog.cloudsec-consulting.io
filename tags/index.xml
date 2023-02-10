@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>/tags/</link>
+    <link>https://blog.cloudsec-consulting.io/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cloudsec-consulting.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>azure</title>
-      <link>/tags/azure/</link>
+      <link>https://blog.cloudsec-consulting.io/tags/azure/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/azure/</guid>
+      <guid>https://blog.cloudsec-consulting.io/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>/tags/cloud/</link>
+      <link>https://blog.cloudsec-consulting.io/tags/cloud/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cloud/</guid>
+      <guid>https://blog.cloudsec-consulting.io/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>/tags/index/</link>
+      <link>https://blog.cloudsec-consulting.io/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/index/</guid>
+      <guid>https://blog.cloudsec-consulting.io/tags/index/</guid>
       <description></description>
     </item>
     

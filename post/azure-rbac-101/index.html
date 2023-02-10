@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>
+Azure RBAC 101 | Khaled Benmerabet
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="generator" content="Hugo 0.110.0">
+
+
+<link rel="canonical" href="/post/azure-rbac-101/" >
+<link href="/sass/main.min.30077ffe4e9b8b7407cda3bac81bc8b4a99bb5949b13ec489f186cac967144d3.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a href="/">
+                <span class="terminal">khaled@cloudsec-consulting.io ~ $</span>
+            </a>
+        </div>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="/blog" title="" >
+                        ~/blog</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+        <div class="content">
+            <main class="main">
+                
+<div class="blogPostWrapper">
+    <h1>Azure RBAC 101</h1>
+    <div>
+        <p>I&rsquo;m getting started with Azure. After a couple of years playing with GCP and Azure, I thought it&rsquo;s time to play with Azure. I hope I can reach a good depth and be able to compare the 3 cloud providers in future posts! I don&rsquo;t promise anything but I&rsquo;ll do my best :)</p>
+<h1 id="what-the-heck-is-azure-rbac-">What the heck is Azure RBAC ?</h1>
+<p>RBAC stands for Role-Based Access Control. In short it&rsquo;s used to manage access to ressources. In our case we will look into how we can manage access to Azure ressources effectively.</p>
+<p>We need to understand a couple of concepts that Azure uses to implement RBAC:</p>
+<h2 id="1-security-pricipal">1. Security Pricipal</h2>
+<p>A Security Principal can represent a user, group, service principal*, or managed identity*.
+Let`s keep our examples simple for now with users and groups. We will dig what are service principals and managed identities later on.</p>
+<h2 id="2-role-definition">2. Role definition</h2>
+<p>This is where we say what actions are allowed by the role.
+Azure provides a lot of built-in roles. And a lot of people end up using those built-in roles even if they carry a lot of permissions and it&rsquo;s not necessarily a good decision.
+On the other hand, we can define custom roles, where we define exactly what we need in terms of permissions by following the principle of least privilege.</p>
+<h2 id="3-scope">3. Scope</h2>
+<p>Azure has a defined hierarchy for resources. There is 4 levels:</p>
+<ol>
+<li>Management group</li>
+<li>Subscription</li>
+<li>Resource group</li>
+<li>Ressource</li>
+</ol>
+<p>The lower we go, more explicit we will be in our scope definition, which is better in terms security best practices.</p>
+<h2 id="4-assignement">4. Assignement</h2>
+<p>The assignement is the glue between the &ldquo;Security principal&rdquo;, the &ldquo;Role&rdquo;, and the &ldquo;Scope&rdquo;.
+A role definition alone will not grant a user, for example, any permissions if we don&rsquo;t assign the role to the user on a defined scope.</p>
+<h1 id="next-steps">Next steps</h1>
+<p>In the following posts, we will see some practical examples of defining scopes depending on what we want to achieve. And we will look into Service Principals and Managed Identities in Azure.</p>
+<h1 id="see-ya-in-the-next-one">SEE YA IN THE NEXT ONE</h1>
+<p><svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg></p>
+
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    © 2023 Khaled Benmerabet, Built with
+    <a href="https://gohugo.io" class="footerLink">Hugo</a> and
+    <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme
+</footer>
+    </div>
+
+</body>
+
+</html>

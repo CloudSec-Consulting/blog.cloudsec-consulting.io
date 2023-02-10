@@ -2,27 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.cloudsec-consulting.io/authors/</loc>
-    <lastmod>2021-11-27T00:22:35+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cloudsec-consulting.io/</loc>
-    <lastmod>2021-11-27T00:22:35+00:00</lastmod>
+    <loc>/about/</loc>
+    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cloudsec-consulting.io/authors/khaled/</loc>
-    <lastmod>2021-11-27T00:22:35+00:00</lastmod>
+    <loc>/tags/azure/</loc>
+    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cloudsec-consulting.io/posts/</loc>
-    <lastmod>2021-11-27T00:22:35+00:00</lastmod>
+    <loc>/post/azure-rbac-101/</loc>
+    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cloudsec-consulting.io/posts/visibility/</loc>
-    <lastmod>2021-11-27T00:22:35+00:00</lastmod>
+    <loc>/tags/cloud/</loc>
+    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cloudsec-consulting.io/homepage/</loc>
+    <loc>/post/</loc>
+    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cloudsec-consulting.io/categories/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cloudsec-consulting.io/series/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://blog.cloudsec-consulting.io/tags/</loc>
+    <loc>/tags/index/</loc>
   </url>
 </urlset>

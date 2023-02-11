@@ -1,0 +1,17 @@
+name: CI
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.REPO_TOKEN }}
+          external_repository: CloudSec-Consulting/blog.cloudsec-consulting.io
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: cloudsec-c
+          user_email: khaled@cloudsec-consulting.io
+          publish_branch: master
+        #   cname: example.com
